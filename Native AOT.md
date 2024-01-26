@@ -26,7 +26,7 @@ e.g. System.Linq.Expressions always use their interpreted form, which is slower 
 - Stop using or reduce dependence on reflection or dynamic code
 - Use library that are using source generators in order to avoids the need for reflection (e.g. System.Text.Json)
 - Enable trimming warnings (`<IsTrimmable>true</IsTrimmable>`)
-- Enable partial trimming (`<TrimMode>partial</TrimMode>`) if it is to much work to support it right now and include the specific assemblies that can support it
+- Enable partial trimming (`<TrimMode>partial</TrimMode>`) if it is too much work to support it right now and include the specific assemblies that can support it
 - Enable trimming everywhere (`<PublishTrimmed>true</PublishTrimmed>`)
 - Enable native AOT warnings (`<IsAotCompatible>true</IsAotCompatible>`)
 - Enable native AOT (`<PublishAot>true</PublishAot>`)
