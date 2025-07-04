@@ -14,4 +14,4 @@
 - consider using TimeProvider to be able to mock date and time
 - consider using nuget package NSubstitute for mocking object
 - use [ExcludeFromCodeCoverage] to exclude code from code coverage if you have a good reason. e.g. Program.cs, config files, utils allowing for mocking methods
-- consider using project like https://github.com/danielpalme/ReportGenerator for having visualizing code coverage in your projects
+- consider using project like https://github.com/danielpalme/ReportGenerator for having a visualization of code coverage in your projects
